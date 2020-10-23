@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7430722353020399977}
   - component: {fileID: -1491667209840261351}
   - component: {fileID: -6822528457540425713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rolitao
   m_TagString: Untagged
   m_Icon: {fileID: 0}

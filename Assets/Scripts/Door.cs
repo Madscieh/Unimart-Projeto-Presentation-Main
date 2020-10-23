@@ -20,7 +20,6 @@ public class Door : MonoBehaviour
                     Destroy(door);
                     interact.SetActive(false);
                 }
-
             }
         }
     }

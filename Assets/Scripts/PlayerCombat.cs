@@ -25,50 +25,11 @@ public class PlayerCombat : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
-        /*
         if (horizontal != 0 || vertical != 0)
             if (horizontal != 0)
                 arma.position = new Vector3(horizontal / 2, 0, 0) + player.position;
             else
                 arma.position = new Vector3(0, vertical, 0) + player.position;
-        */
-
-        // Se estiver parado, não muda a posição da arma
-        if (horizontal == 0 && vertical == 0)
-        { }
-        // Primeiro Quadrante
-        else if (horizontal >= 0 && vertical >= 0)
-        {
-            if (Mathf.Abs(horizontal) >= Mathf.Abs(vertical))
-                arma.position = new Vector3(0.5f, 0f, 0f) + player.position;
-            if (Mathf.Abs(horizontal) < Mathf.Abs(vertical))
-                arma.position = new Vector3(0f, 1f, 0f) + player.position;
-        }
-        // Segundo Quadrante
-        else if (horizontal < 0 && vertical >= 0)
-        {
-            if (Mathf.Abs(horizontal) >= Mathf.Abs(vertical))
-                arma.position = new Vector3(-0.5f, 0f, 0f) + player.position;
-            if (Mathf.Abs(horizontal) < Mathf.Abs(vertical))
-                arma.position = new Vector3(0f, 1f, 0f) + player.position;
-        }
-        // Terceiro Quadrante
-        else if (horizontal < 0 && vertical < 0)
-        {
-            if (Mathf.Abs(horizontal) >= Mathf.Abs(vertical))
-                arma.position = new Vector3(-0.5f, 0f, 0f) + player.position;
-            if (Mathf.Abs(horizontal) < Mathf.Abs(vertical))
-                arma.position = new Vector3(0f, -1f, 0f) + player.position;
-        }
-        // Quarto Quadrante
-        else if (horizontal >= 0 && vertical < 0)
-        {
-            if (Mathf.Abs(horizontal) >= Mathf.Abs(vertical))
-                arma.position = new Vector3(0.5f, 0f, 0f) + player.position;
-            if (Mathf.Abs(horizontal) < Mathf.Abs(vertical))
-                arma.position = new Vector3(0f, -1f, 0f) + player.position;
-        }
-
 
         if (Time.time >= tempoProximoAtaque)
         {
@@ -94,20 +55,6 @@ public class PlayerCombat : MonoBehaviour
                 acerto[indice].GetComponent<BreakableBox>().DestroyBox();
         }
     }
-    
-    /*
-    void AttackBox()
-    {
-        anim.SetTrigger("Ataque");
-        Collider2D[] acertoBox = Physics2D.OverlapCircleAll(arma.position, alcance, inimigoLayer);
-        for (int i = acertoBox.Length - 1; i >= 0; i--)
-        {
-            acertoBox[i].GetComponent<BreakableBox>().DestroyBox();
-            Debug.Log("Destroi caixa");
-            Debug.Log(i);
-        }
-    }
-    */
 
     private void OnDrawGizmosSelected()
     {

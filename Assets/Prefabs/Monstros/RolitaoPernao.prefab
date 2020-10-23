@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7734312204401363696}
   - component: {fileID: 3471687569595747831}
   - component: {fileID: 6592246388231299729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RolitaoPernao
   m_TagString: Untagged
   m_Icon: {fileID: 0}

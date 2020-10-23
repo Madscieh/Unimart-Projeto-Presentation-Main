@@ -18,6 +18,7 @@ public class Monstro : MonoBehaviour
     public void LevaDano(int dano)
     {
         saudeAtual -= dano;
+        SoundManager.PlaySound("AcerteiAlgo");
 
         // anim.SetTrigger("Ferido");
 

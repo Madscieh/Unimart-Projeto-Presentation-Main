@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4442220778059822628}
   - component: {fileID: 6080086955343390483}
   - component: {fileID: 8116613751709190056}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RolititoNamoradito
   m_TagString: Untagged
   m_Icon: {fileID: 0}

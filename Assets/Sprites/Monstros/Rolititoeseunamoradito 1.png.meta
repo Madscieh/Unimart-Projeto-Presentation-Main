@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 6e769ca6c2afbfd498a0e91b31ca77e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5256312323641198970
+    second: Rolititoeseunamoradito 1_0
+  - first:
+      213: 1244748964103911905
+    second: Rolititoeseunamoradito 1_1
+  - first:
+      213: -2862020417010840650
+    second: Rolititoeseunamoradito 1_2
+  - first:
+      213: -2948140182733627896
+    second: Rolititoeseunamoradito 1_3
+  - first:
+      213: -3968802438919568896
+    second: Rolititoeseunamoradito 1_4
+  - first:
+      213: 5234991151429408429
+    second: Rolititoeseunamoradito 1_5
+  - first:
+      213: -8027627362720915702
+    second: Rolititoeseunamoradito 1_6
+  - first:
+      213: 3699381332035035338
+    second: Rolititoeseunamoradito 1_7
+  - first:
+      213: 4090307238978671478
+    second: Rolititoeseunamoradito 1_8
+  - first:
+      213: -4904240801337560813
+    second: Rolititoeseunamoradito 1_9
+  - first:
+      213: -7522263436947767810
+    second: Rolititoeseunamoradito 1_10
+  - first:
+      213: 5697121916190105604
+    second: Rolititoeseunamoradito 1_11
+  - first:
+      213: 702570032462969565
+    second: Rolititoeseunamoradito 1_12
+  - first:
+      213: -2071667793234258261
+    second: Rolititoeseunamoradito 1_13
+  - first:
+      213: 6540037029214498978
+    second: Rolititoeseunamoradito 1_14
+  - first:
+      213: 6537912202819620393
+    second: Rolititoeseunamoradito 1_15
+  - first:
+      213: -8202143943517018305
+    second: Rolititoeseunamoradito 1_16
+  - first:
+      213: 6198555498695487914
+    second: Rolititoeseunamoradito 1_17
+  - first:
+      213: 1627030824079248040
+    second: Rolititoeseunamoradito 1_18
+  - first:
+      213: -3513243898192524546
+    second: Rolititoeseunamoradito 1_19
+  - first:
+      213: 5240455618672447264
+    second: Rolititoeseunamoradito 1_20
+  - first:
+      213: -7813382283978820565
+    second: Rolititoeseunamoradito 1_21
+  - first:
+      213: 1789252857876830065
+    second: Rolititoeseunamoradito 1_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 404
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79442f853c22f840800000000000000
+      internalID: 5256312323641198970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 404
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9f2ff769c364110800000000000000
+      internalID: 1244748964103911905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 404
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb4728289f0848d0800000000000000
+      internalID: -2862020417010840650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 404
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e5b1caf1a1617d0800000000000000
+      internalID: -2948140182733627896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 404
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002ce7c953bfbe8c0800000000000000
+      internalID: -3968802438919568896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 308
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6534f47bc66a840800000000000000
+      internalID: 5234991151429408429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 308
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f50df1273289090800000000000000
+      internalID: -8027627362720915702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 308
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0e8a8a8b7d65330800000000000000
+      internalID: 3699381332035035338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 308
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673588133c0b3c830800000000000000
+      internalID: 4090307238978671478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 305
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3113c4799f2a0fbb0800000000000000
+      internalID: -4904240801337560813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 211
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdb1dd324d8b9790800000000000000
+      internalID: -7522263436947767810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 211
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400aa98b23e301f40800000000000000
+      internalID: 5697121916190105604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 211
+        width: 43
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda3aced8b700c900800000000000000
+      internalID: 702570032462969565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 212
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba697a34e15ff33e0800000000000000
+      internalID: -2071667793234258261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 281
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a03b380701e2ca50800000000000000
+      internalID: 6540037029214498978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_15
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 210
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e41c552845bba50800000000000000
+      internalID: 6537912202819620393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 116
+        width: 43
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37eb0a4a812c2e80800000000000000
+      internalID: -8202143943517018305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 116
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1f94c7261b50650800000000000000
+      internalID: 6198555498695487914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 116
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aacad30aef549610800000000000000
+      internalID: 1627030824079248040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_19
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 116
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa0deed9437e3fc0800000000000000
+      internalID: -3513243898192524546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 117
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fcb2cbe96d9b840800000000000000
+      internalID: 5240455618672447264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_21
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 45
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24bc15b53a419390800000000000000
+      internalID: -7813382283978820565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolititoeseunamoradito 1_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 45
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177d91f8ef3b4d810800000000000000
+      internalID: 1789252857876830065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
