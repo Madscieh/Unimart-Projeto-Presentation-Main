@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static AudioClip CaixaArrastando, CaixaQuebrando, PortaAbrindo, PortaDestrancando, Chave, AcerteiAlgo, TomeiDano;
+    public static AudioClip CaixaArrastando, CaixaQuebrando, PortaAbrindo, PortaDestrancando, Chave, AcerteiAlgo, TomeiDano, Oculos;
     static AudioSource audioSrc;
 
     // Start is called before the first frame update
@@ -17,6 +17,7 @@ public class SoundManager : MonoBehaviour
         Chave = Resources.Load<AudioClip>("key");
         AcerteiAlgo = Resources.Load<AudioClip>("AcerteiAlgo");
         TomeiDano = Resources.Load<AudioClip>("TomeiDano");
+        Oculos = Resources.Load<AudioClip>("Oculos");
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -45,6 +46,9 @@ public class SoundManager : MonoBehaviour
                 break;
             case "TomeiDano":
                 audioSrc.PlayOneShot(TomeiDano);
+                break;
+            case "Oculos":
+                audioSrc.PlayOneShot(Oculos);
                 break;
         }
     }

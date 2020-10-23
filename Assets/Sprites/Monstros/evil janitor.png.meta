@@ -2301,9 +2301,9 @@ TextureImporter:
       name: evil janitor_85
       rect:
         serializedVersion: 2
-        x: 200
+        x: 199
         y: 430
-        width: 34
+        width: 35
         height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2323,9 +2323,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 239
-        y: 430
+        y: 427
         width: 43
-        height: 63
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2365,9 +2365,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 294
-        y: 427
-        width: 41
-        height: 66
+        y: 410
+        width: 44
+        height: 83
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2407,9 +2407,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 346
-        y: 424
+        y: 409
         width: 47
-        height: 69
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2534,8 +2534,8 @@ TextureImporter:
         serializedVersion: 2
         x: 254
         y: 318
-        width: 37
-        height: 71
+        width: 41
+        height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2595,10 +2595,10 @@ TextureImporter:
       name: evil janitor_99
       rect:
         serializedVersion: 2
-        x: 304
+        x: 299
         y: 318
-        width: 40
-        height: 73
+        width: 45
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2682,7 +2682,7 @@ TextureImporter:
         x: 210
         y: 318
         width: 40
-        height: 64
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2721,10 +2721,10 @@ TextureImporter:
       name: evil janitor_105
       rect:
         serializedVersion: 2
-        x: 352
+        x: 351
         y: 318
-        width: 43
-        height: 64
+        width: 44
+        height: 65
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

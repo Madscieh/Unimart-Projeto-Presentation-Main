@@ -15,17 +15,5 @@ public class Key : MonoBehaviour
             playerKey.SetActive(true);
             SoundManager.PlaySound("key");
         }
-            
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -48,7 +48,6 @@ public class EvilJanitorMovement : MonoBehaviour
             horizontal *= moveLimiter;
             vertical *= moveLimiter;
         }
-
         rb.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
     }
 }
