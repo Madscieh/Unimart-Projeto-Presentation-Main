@@ -40,7 +40,7 @@ public class Monstro : MonoBehaviour
 
     void Desaparece()
     {
-        Destroy(gameObject, 0.4f);
+        Destroy(gameObject, 0.75f);
     }
 }
 
