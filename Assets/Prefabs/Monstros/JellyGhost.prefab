@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 8820524703560164565}
   - component: {fileID: 8820524703560164554}
   - component: {fileID: 8820524703560164555}
-  - component: {fileID: 1750814560586356124}
+  - component: {fileID: -7920130281276040209}
   m_Layer: 8
   m_Name: JellyGhost
   m_TagString: Enemy
@@ -177,7 +177,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8820524703560164566}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
@@ -190,7 +190,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &1750814560586356124
+--- !u!95 &-7920130281276040209
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ Animator:
   m_GameObject: {fileID: 8820524703560164566}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9ab95d955d5638543aa38c50ce815eca, type: 2}
+  m_Controller: {fileID: 9100000, guid: d3be61a29ca9d8346a73f356416dc92d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Monstro : MonoBehaviour
 {
     public Animator anim;
 
     public int saudeMax = 100;
     int saudeAtual;
+    public GameObject oLente, oAlca, oculos;
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,12 +37,17 @@ public class Monstro : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
 
-        Desaparece();
+        WinGame();
     }
 
-    void Desaparece()
+    void WinGame()
     {
         Destroy(gameObject, 0.75f);
+        oAlca.SetActive(false);
+        oLente.SetActive(false);
+        oculos.SetActive(true);
+        SoundManager.PlaySound("Oculos");
+        //SceneManager.LoadScene("WinCondition");
     }
 }
 

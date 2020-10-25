@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 9057696105092942944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5082846, y: 2.6141748, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.75}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.65625, y: 2.125}
+  m_Size: {x: 1.1, y: 2.1}
   m_EdgeRadius: 0
 --- !u!50 &2499666049817614340
 Rigidbody2D:
@@ -124,8 +124,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
+  m_UseAutoMass: 1
+  m_Mass: 0.8316
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -181,3 +181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 7430722353020399977}
   saudeMax: 100
+  oLente: {fileID: 0}
+  oAlca: {fileID: 0}
+  oculos: {fileID: 0}

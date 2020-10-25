@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6807516197120454351}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5082846, y: 2.6141748, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -111,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.25, y: 2.875}
+  m_Size: {x: 2.2, y: 2.9}
   m_EdgeRadius: 0
 --- !u!50 &1768256458860269378
 Rigidbody2D:
@@ -181,3 +181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 4442220778059822628}
   saudeMax: 100
+  oLente: {fileID: 0}
+  oAlca: {fileID: 0}
+  oculos: {fileID: 0}

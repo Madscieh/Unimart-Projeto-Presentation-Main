@@ -5,6 +5,7 @@ using UnityEngine;
 public class Arvore : MonoBehaviour
 {
     public Sprite ArvoreSemGalho;
+    public GameObject playerOculos;
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -12,6 +13,7 @@ public class Arvore : MonoBehaviour
         {
             // GetComponent<BoxCollider2D>().enabled = false;
             this.gameObject.GetComponent<SpriteRenderer>().sprite = ArvoreSemGalho;
+            playerOculos.SetActive(true);
             SoundManager.PlaySound("Oculos");
         }
     }

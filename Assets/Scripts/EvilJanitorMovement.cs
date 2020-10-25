@@ -54,7 +54,7 @@ public class EvilJanitorMovement : MonoBehaviour
             vertical *= moveLimiter;
         }
 
-        if (Mathf.Abs(distanciax) < distanciaAtivacao)
+        if (Mathf.Abs(distanciax) < distanciaAtivacao && Mathf.Abs(distanciay) < distanciaAtivacao)
         {
             anim.SetBool("Nascimento", true);
             rb.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);

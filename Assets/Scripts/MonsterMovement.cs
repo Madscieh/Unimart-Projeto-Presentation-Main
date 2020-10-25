@@ -15,7 +15,7 @@ public class MonsterMovement : MonoBehaviour
     float horizontal;
     float vertical;
     float moveLimiter = 0.7f;
-    float distanciaAtivacao = 2f;
+    float distanciaAtivacao = 3.5f;
 
     public float runSpeed = 1.0f;
 

@@ -51,6 +51,8 @@ public class PlayerCombat : MonoBehaviour
             //ficar checando para ver se tem o componente...
             if (acerto[indice].GetComponent<Monstro>() != null)
                 acerto[indice].GetComponent<Monstro>().LevaDano(dano);
+            else if (acerto[indice].GetComponent<EvilJanitor>() != null)
+                acerto[indice].GetComponent<EvilJanitor>().LevaDano(dano);
             else if (acerto[indice].GetComponent<BreakableBox>() != null)
                 acerto[indice].GetComponent<BreakableBox>().DestroyBox();
         }
