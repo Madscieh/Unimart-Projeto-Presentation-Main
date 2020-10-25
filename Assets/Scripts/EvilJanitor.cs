@@ -8,7 +8,7 @@ public class EvilJanitor : MonoBehaviour
 {
     public Animator anim;
 
-    public int saudeMax = 2100;
+    public int saudeMax = 200;
     int saudeAtual;
     public GameObject oLente, oAlca, oculos, player;
 

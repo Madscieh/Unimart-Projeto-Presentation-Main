@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1967522726707913006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8331810764306443627}
+  m_Layer: 0
+  m_Name: Arma
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8331810764306443627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967522726707913006}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.66, y: 0.08, z: -0.024129232}
+  m_LocalScale: {x: 1.6666666, y: 1.6666666, z: 1.3333334}
+  m_Children: []
+  m_Father: {fileID: 2929397964567145437}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9057696105092942944
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,6 +45,7 @@ GameObject:
   - component: {fileID: 7430722353020399977}
   - component: {fileID: -1491667209840261351}
   - component: {fileID: -6822528457540425713}
+  - component: {fileID: 357300179804970325}
   m_Layer: 8
   m_Name: Rolitao
   m_TagString: Untagged
@@ -32,7 +63,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5082846, y: 2.6141748, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.75}
-  m_Children: []
+  m_Children:
+  - {fileID: 8331810764306443627}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -184,3 +216,24 @@ MonoBehaviour:
   oLente: {fileID: 0}
   oAlca: {fileID: 0}
   oculos: {fileID: 0}
+--- !u!114 &357300179804970325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057696105092942944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e73597fabc6a549a043dacc385229f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 7430722353020399977}
+  arma: {fileID: 8331810764306443627}
+  monster: {fileID: 2929397964567145437}
+  Player:
+    serializedVersion: 2
+    m_Bits: 512
+  alcance: 1
+  dano: 40
+  cadenciaDeAtaque: 2
