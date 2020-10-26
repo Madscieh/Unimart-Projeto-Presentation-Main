@@ -39,10 +39,6 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-        else if (sentences.Count == 1)
-        {
-            nameText.text = "Janitor";
-        }
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));

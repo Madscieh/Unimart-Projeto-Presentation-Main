@@ -44271,12 +44271,12 @@ PrefabInstance:
     - target: {fileID: 8537163927959176961, guid: 86617a7bf228e4f4c8ef85056d3332df,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.43
+      value: -3.58
       objectReference: {fileID: 0}
     - target: {fileID: 8537163927959176961, guid: 86617a7bf228e4f4c8ef85056d3332df,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.57
+      value: -17.35
       objectReference: {fileID: 0}
     - target: {fileID: 8537163927959176961, guid: 86617a7bf228e4f4c8ef85056d3332df,
         type: 3}
@@ -44386,7 +44386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 347288411}
-  saudeMax: 1000
+  saudeMax: 1500
 --- !u!114 &347288428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86275,7 +86275,7 @@ Transform:
   m_GameObject: {fileID: 1762717995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.04, y: 54.72, z: 172.26562}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1963847556}
   m_RootOrder: 4
