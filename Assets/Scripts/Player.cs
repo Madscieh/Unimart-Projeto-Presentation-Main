@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     public Animator anim;
 
-    public int saudeMax = 1000;
+    public int saudeMax = 2000;
     int saudeAtual;
 
     // Start is called before the first frame update

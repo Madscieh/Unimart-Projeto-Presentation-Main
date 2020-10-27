@@ -49,6 +49,6 @@ public class EvilJanitor : MonoBehaviour
         oLente.SetActive(false);
         oculos.SetActive(true);
         SoundManager.PlaySound("Oculos");
-        //SceneManager.LoadScene("WinCondition");
+        SceneManager.LoadScene("WinCondition");
     }
 }

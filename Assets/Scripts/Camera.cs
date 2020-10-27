@@ -16,7 +16,7 @@ public class Camera : MonoBehaviour
             ancoraCamera.position.y < -10f && ancoraCamera.position.y > -22f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, -4.08f, -1.9f),
+                Mathf.Clamp(ancoraCamera.position.x, -4.58f, -1.36f),
                 Mathf.Clamp(ancoraCamera.position.y, -18.9f, -13.1f),
                 transform.position.z);
         }
@@ -25,7 +25,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 11f && ancoraCamera.position.y > -1f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, -4.05f, -1.95f),
+                Mathf.Clamp(ancoraCamera.position.x, -4.65f, -1.38f),
                 Mathf.Clamp(ancoraCamera.position.y, 2.02f, 7.91f),
                 transform.position.z);
         }
@@ -34,7 +34,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 32f && ancoraCamera.position.y > 18f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 3.95f, 5.05f),
+                Mathf.Clamp(ancoraCamera.position.x, 3.35f, 5.65f),
                 Mathf.Clamp(ancoraCamera.position.y, 23.05f, 28.9f),
                 transform.position.z);
         }
@@ -43,7 +43,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 31.84f && ancoraCamera.position.y > 18f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 30f, 32f),
+                Mathf.Clamp(ancoraCamera.position.x, 29.4f, 32.6f),
                 Mathf.Clamp(ancoraCamera.position.y, 23.09f, 28.94f),
                 transform.position.z);
         }
@@ -52,7 +52,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 13f && ancoraCamera.position.y > 1f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 40.9f, 43.06f),
+                Mathf.Clamp(ancoraCamera.position.x, 40.3f, 43.66f),
                 Mathf.Clamp(ancoraCamera.position.y, 4.07f, 9.94f),
                 transform.position.z);
         }
@@ -61,7 +61,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 11.8f && ancoraCamera.position.y > -9f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 17.97f, 20f),
+                Mathf.Clamp(ancoraCamera.position.x, 17.37f, 20.6f),
                 Mathf.Clamp(ancoraCamera.position.y, -5.93f, 8.96f),
                 transform.position.z);
         }
@@ -72,7 +72,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 90f && ancoraCamera.position.y > 70f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 14.5f, 22.77f),
+                Mathf.Clamp(ancoraCamera.position.x, 13.9f, 23.37f),
                 Mathf.Clamp(ancoraCamera.position.y, 72.74f, 87.68f),
                 transform.position.z);
         }
@@ -81,7 +81,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 90f && ancoraCamera.position.y > 70f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, -14.5f, -6.3f),
+                Mathf.Clamp(ancoraCamera.position.x, -15.1f, -5.7f),
                 Mathf.Clamp(ancoraCamera.position.y, 72.74f, 87.68f),
                 transform.position.z);
         }
@@ -90,7 +90,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 120.68f && ancoraCamera.position.y > 70f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, -14.5f, -6.3f),
+                Mathf.Clamp(ancoraCamera.position.x, -15.1f, -5.7f),
                 Mathf.Clamp(ancoraCamera.position.y, 102.73f, 117.7f),
                 transform.position.z);
         }
@@ -99,7 +99,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 120.68f && ancoraCamera.position.y > 102.7f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 14.5f, 22.7f),
+                Mathf.Clamp(ancoraCamera.position.x, 13.9f, 23.3f),
                 Mathf.Clamp(ancoraCamera.position.y, 105.65f, 117.7f),
                 transform.position.z);
         }
@@ -108,7 +108,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 120.68f && ancoraCamera.position.y > 102.88f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 39.52f, 48.71f),
+                Mathf.Clamp(ancoraCamera.position.x, 38.92f, 49.31f),
                 Mathf.Clamp(ancoraCamera.position.y, 107.7f, 117.65f),
                 transform.position.z);
         }
@@ -118,7 +118,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 95f && ancoraCamera.position.y > 77.7f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 39.6f, 43.7f),
+                Mathf.Clamp(ancoraCamera.position.x, 39f, 44.3f),
                 Mathf.Clamp(ancoraCamera.position.y, 80.74f, 91.68f),
                 transform.position.z);
         }
@@ -129,7 +129,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 68f && ancoraCamera.position.y > 55f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 82.62f, 84.85f),
+                Mathf.Clamp(ancoraCamera.position.x, 82.02f, 85.45f),
                 Mathf.Clamp(ancoraCamera.position.y, 58.74f, 64.69f),
                 transform.position.z);
         }
@@ -138,7 +138,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 88f && ancoraCamera.position.y > 77f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 82.65f, 84.82f),
+                Mathf.Clamp(ancoraCamera.position.x, 82.05f, 85.42f),
                 Mathf.Clamp(ancoraCamera.position.y, 79.81f, 85.63f),
                 transform.position.z);
         }
@@ -147,7 +147,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 109f && ancoraCamera.position.y > 96f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 90.58f, 91.82f),
+                Mathf.Clamp(ancoraCamera.position.x, 90f, 92.42f),
                 Mathf.Clamp(ancoraCamera.position.y, 100.81f, 106.66f),
                 transform.position.z);
         }
@@ -156,7 +156,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 96f && ancoraCamera.position.y > 79f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 125.51f, 129.72f),
+                Mathf.Clamp(ancoraCamera.position.x, 124.91f, 130.32f),
                 Mathf.Clamp(ancoraCamera.position.y, 82.71f, 93.72f),
                 transform.position.z);
         }
@@ -165,7 +165,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 89f && ancoraCamera.position.y > 68f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 104.58f, 106.80f),
+                Mathf.Clamp(ancoraCamera.position.x, 104f, 107.40f),
                 Mathf.Clamp(ancoraCamera.position.y, 71.74f, 88.67f),
                 transform.position.z);
         }
@@ -175,7 +175,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 51f && ancoraCamera.position.y > 37f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 136f, 168.5f),
+                Mathf.Clamp(ancoraCamera.position.x, 135.4f, 169.1f),
                 Mathf.Clamp(ancoraCamera.position.y, 9.05f, 52.5f),
                 transform.position.z);
         }
@@ -185,7 +185,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 78f && ancoraCamera.position.y > 68f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 167.2f, 168.5f),
+                Mathf.Clamp(ancoraCamera.position.x, 166.6f, 169.1f),
                 Mathf.Clamp(ancoraCamera.position.y, 71f, 74.98f),
                 transform.position.z);
         }
@@ -194,7 +194,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 106f && ancoraCamera.position.y > 81f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 182.9f, 198.7f),
+                Mathf.Clamp(ancoraCamera.position.x, 182.3f, 199.3f),
                 Mathf.Clamp(ancoraCamera.position.y, 85.99f, 102.87f),
                 transform.position.z);
         }
@@ -203,7 +203,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 66f && ancoraCamera.position.y > 52f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 214.2f, 220.5f),
+                Mathf.Clamp(ancoraCamera.position.x, 213.6f, 221.1f),
                 Mathf.Clamp(ancoraCamera.position.y, 55f, 63f),
                 transform.position.z);
         }
@@ -212,7 +212,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 28f && ancoraCamera.position.y > 12f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 184.7f, 193.1f),
+                Mathf.Clamp(ancoraCamera.position.x, 184.1f, 193.7f),
                 Mathf.Clamp(ancoraCamera.position.y, 15f, 22.95f),
                 transform.position.z);
         }
@@ -221,7 +221,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 74f && ancoraCamera.position.y > 34f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 188.9f, 188.8f),
+                Mathf.Clamp(ancoraCamera.position.x, 188.3f, 189.4f),
                 Mathf.Clamp(ancoraCamera.position.y, 37f, 71f),
                 transform.position.z);
         }
@@ -232,7 +232,7 @@ public class Camera : MonoBehaviour
          ancoraCamera.position.y < -10f && ancoraCamera.position.y > -22f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 82.8f, 84.8f),
+                Mathf.Clamp(ancoraCamera.position.x, 82.2f, 85.4f),
                 Mathf.Clamp(ancoraCamera.position.y, -18.93f, -13.05f),
                 transform.position.z);
         }
@@ -241,7 +241,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 11f && ancoraCamera.position.y > -1f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 82.69f, 84.91f),
+                Mathf.Clamp(ancoraCamera.position.x, 82.09f, 85.51f),
                 Mathf.Clamp(ancoraCamera.position.y, 2.06f, 7.97f),
                 transform.position.z);
         }
@@ -250,7 +250,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 32f && ancoraCamera.position.y > 19f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 90.71f, 91.92f),
+                Mathf.Clamp(ancoraCamera.position.x, 90.11f, 92.52f),
                 Mathf.Clamp(ancoraCamera.position.y, 23.05f, 28.93f),
                 transform.position.z);
         }
@@ -259,7 +259,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 31.9f && ancoraCamera.position.y > 18f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 116.7f, 118.92f),
+                Mathf.Clamp(ancoraCamera.position.x, 116.1f, 119.52f),
                 Mathf.Clamp(ancoraCamera.position.y, 23.06f, 28.97f),
                 transform.position.z);
         }
@@ -268,7 +268,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 12.9f && ancoraCamera.position.y > 0f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 127.65f, 129.95f),
+                Mathf.Clamp(ancoraCamera.position.x, 127.05f, 130.55f),
                 Mathf.Clamp(ancoraCamera.position.y, 4.04f, 9.97f),
                 transform.position.z);
         }
@@ -277,7 +277,7 @@ public class Camera : MonoBehaviour
                  ancoraCamera.position.y < 12f && ancoraCamera.position.y > -9f)
         {
             transform.position = new Vector3(
-                Mathf.Clamp(ancoraCamera.position.x, 104.69f, 106.96f),
+                Mathf.Clamp(ancoraCamera.position.x, 104.09f, 107.56f),
                 Mathf.Clamp(ancoraCamera.position.y, -5.97f, 8.94f),
                 transform.position.z);
         }
