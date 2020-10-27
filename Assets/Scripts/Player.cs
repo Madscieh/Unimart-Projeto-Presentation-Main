@@ -22,11 +22,15 @@ public class Player : MonoBehaviour
         SoundManager.PlaySound("AcerteiAlgo");
 
         if (saudeAtual <= 0)
+        {
+            SceneManager.LoadScene("MainMenu");
             Desmaio();
+        }
     }
 
     void Desmaio()
     {
         anim.SetBool("Perdeu", true);
+        SceneManager.LoadScene("MainMenu");
     }
 }
